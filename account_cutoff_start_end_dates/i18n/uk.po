@@ -55,3 +55,18 @@ msgstr "Рядок відсікання рахунку"
 #: model:ir.model.fields,field_description:account_cutoff_start_end_dates.field_account_cutoff__source_journal_ids
 msgid "Source Journals"
 msgstr "Журнали-джерела"
+
+#. module: account_cutoff_start_end_dates
+#: model_terms:ir.ui.view,arch_db:account_cutoff_start_end_dates.account_cutoff_form
+msgid "Enable Forecast Mode"
+msgstr "Увімкнути режим прогнозу"
+
+#. module: account_cutoff_start_end_dates
+#: model:ir.model.fields,field_description:account_cutoff_start_end_dates.field_account_cutoff__include_tax_lines
+msgid "Include Tax Lines"
+msgstr "Включати рядки податків"
+
+#. module: account_cutoff_start_end_dates
+#: model_terms:ir.ui.view,arch_db:account_cutoff_start_end_dates.account_cutoff_form
+msgid "Leave Forecast Mode"
+msgstr "Режим прогнозу відпусток"

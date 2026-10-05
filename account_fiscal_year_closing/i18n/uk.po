@@ -625,3 +625,75 @@ msgstr "Незвірено"
 #: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_unbalanced_move_line__move_id
 msgid "Unbalanced move"
 msgstr "Незбалансоване проведення"
+
+#. module: account_fiscal_year_closing
+#: model:ir.model.fields,help:account_fiscal_year_closing.field_account_fiscalyear_closing__check_draft_moves
+#: model:ir.model.fields,help:account_fiscal_year_closing.field_account_fiscalyear_closing_abstract__check_draft_moves
+#: model:ir.model.fields,help:account_fiscal_year_closing.field_account_fiscalyear_closing_template__check_draft_moves
+msgid ""
+"Checks that there are no draft moves on the fiscal year that is being "
+"closed. Non-confirmed moves won't be taken in account on the closing "
+"operations."
+msgstr ""
+"Перевіряє, що у фінансовому році, який закривається, немає чернеток "
+"проведень. Непідтверджені проведення не враховуватимуться в операціях "
+"закриття."
+
+#. module: account_fiscal_year_closing
+#: model:ir.model.fields,help:account_fiscal_year_closing.field_account_fiscalyear_closing_config__inverse
+#: model:ir.model.fields,help:account_fiscal_year_closing.field_account_fiscalyear_closing_config_abstract__inverse
+#: model:ir.model.fields,help:account_fiscal_year_closing.field_account_fiscalyear_closing_config_template__inverse
+msgid "Configuration code to inverse its move"
+msgstr "Код конфігурації для зворотного проведення"
+
+#. module: account_fiscal_year_closing
+#: model_terms:ir.ui.view,arch_db:account_fiscal_year_closing.view_account_fiscalyear_closing_form
+msgid "Confirm and post moves"
+msgstr "Підтвердити та провести переміщення"
+
+#. module: account_fiscal_year_closing
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_config_template__move_date__first_opening
+msgid "First date of the opening period"
+msgstr "Перша дата початкового періоду"
+
+#. module: account_fiscal_year_closing
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_config_template__template_id
+msgid "Fiscal Year Closing Template"
+msgstr "Шаблон закриття фінансового року"
+
+#. module: account_fiscal_year_closing
+#: model_terms:ir.ui.view,arch_db:account_fiscal_year_closing.view_account_fiscalyear_closing_unbalanced_move_form
+msgid ""
+"Generating the closing moves, an unbalanced move has been detected.\n"
+"                        You need to check the closing configuration or your journal entries\n"
+"                        to find the problem, fix it and then press again on \"Calculate\"."
+msgstr ""
+"Під час створення закривальних проведень виявлено незбалансоване проведення.\n"
+"                        Потрібно перевірити конфігурацію закриття або журнальні записи,\n"
+"                        знайти й виправити проблему, а потім знову натиснути «Розрахувати»."
+
+#. module: account_fiscal_year_closing
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_config_template__move_date__last_ending
+msgid "Last date of the ending period"
+msgstr "Остання дата завершального періоду"
+
+#. module: account_fiscal_year_closing
+#: model_terms:ir.ui.view,arch_db:account_fiscal_year_closing.view_account_fiscalyear_closing_unbalanced_move_form
+msgid ""
+"This screen will help you to identify the problem, showing you\n"
+"                        the unbalanced journal entry:"
+msgstr ""
+"Цей екран допоможе визначити проблему, показавши\n"
+"                        незбалансовану бухгалтерську проводку:"
+
+#. module: account_fiscal_year_closing
+#: model_terms:ir.ui.view,arch_db:account_fiscal_year_closing.view_account_fiscalyear_closing_form
+msgid ""
+"This will remove all the closing moves. Are you sure you want to continue?"
+msgstr ""
+"Це видалить усі закривальні проводки. Ви впевнені, що хочете продовжити?"
+
+#. module: account_fiscal_year_closing
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_unbalanced_move__line_ids
+msgid "Unbalanced move lines"
+msgstr "Незбалансовані рядки проводки"

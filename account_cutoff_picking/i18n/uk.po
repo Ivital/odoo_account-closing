@@ -29,3 +29,8 @@ msgstr "Інтервал аналізу"
 #: model_terms:ir.ui.view,arch_db:account_cutoff_picking.account_cutoff_form
 msgid "days"
 msgstr "дні"
+
+#. module: account_cutoff_picking
+#: model_terms:ir.ui.view,arch_db:account_cutoff_picking.res_config_settings_view_form
+msgid "Picking Analysis Interval"
+msgstr "Інтервал аналізу переміщень"

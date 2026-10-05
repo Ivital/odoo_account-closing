@@ -183,3 +183,18 @@ msgstr "Раз на півріччя"
 #: model:ir.model.fields.selection,name:account_cutoff_accrual_subscription.selection__account_cutoff_accrual_subscription__periodicity__year
 msgid "Yearly"
 msgstr "Щороку"
+
+#. module: account_cutoff_accrual_subscription
+#: model:ir.model.fields,field_description:account_cutoff_accrual_subscription.field_account_cutoff_accrual_subscription__provision_amount
+msgid "Default Provision Amount"
+msgstr "Сума забезпечення за замовчуванням"
+
+#. module: account_cutoff_accrual_subscription
+#: model:ir.model.fields.selection,name:account_cutoff_accrual_subscription.selection__account_cutoff_accrual_subscription__partner_type__one
+msgid "Specific Partner"
+msgstr "Конкретний партнер"
+
+#. module: account_cutoff_accrual_subscription
+#: model_terms:ir.ui.view,arch_db:account_cutoff_accrual_subscription.account_cutoff_accrual_subscription_form
+msgid "Subscription Name"
+msgstr "Назва підписки"

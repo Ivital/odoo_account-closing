@@ -21,7 +21,7 @@ msgstr ""
 #. module: account_cutoff_base
 #: model_terms:ir.ui.view,arch_db:account_cutoff_base.account_cutoff_form
 msgid "<span class=\"o_stat_text\">Lines Fullscreen</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">Рядки на весь екран</span>"
 
 #. module: account_cutoff_base
 #: model:ir.model.constraint,message:account_cutoff_base.constraint_account_cutoff_date_type_company_uniq
@@ -120,7 +120,7 @@ msgstr "Піктограма типу дії"
 #. module: account_cutoff_base
 #: model:ir.model.fields.selection,name:account_cutoff_base.selection__account_cutoff_mapping__cutoff_type__all
 msgid "All Cut-off Types"
-msgstr ""
+msgstr "Усі типи відсікання"
 
 #. module: account_cutoff_base
 #: model:ir.model.fields,field_description:account_cutoff_base.field_account_cutoff_line__amount
@@ -147,7 +147,7 @@ msgstr "Точність аналітики"
 #. module: account_cutoff_base
 #: model_terms:ir.ui.view,arch_db:account_cutoff_base.account_cutoff_form
 msgid "Are you sure you want to go back to draft state?"
-msgstr ""
+msgstr "Ви впевнені, що хочете повернутися до чернетки?"
 
 #. module: account_cutoff_base
 #: model:ir.model.fields,field_description:account_cutoff_base.field_account_cutoff__message_attachment_count
@@ -179,7 +179,7 @@ msgstr "База"
 #. module: account_cutoff_base
 #: model_terms:ir.actions.act_window,help:account_cutoff_base.account_cutoff_mapping_action
 msgid "Click to start a new cutoff account mapping."
-msgstr ""
+msgstr "Натисніть, щоб створити нове зіставлення рахунка відсікання."
 
 #. module: account_cutoff_base
 #: model:ir.model,name:account_cutoff_base.model_res_company
@@ -209,7 +209,7 @@ msgstr ""
 #. module: account_cutoff_base
 #: model_terms:ir.ui.view,arch_db:account_cutoff_base.account_cutoff_form
 msgid "Create Journal Entry"
-msgstr ""
+msgstr "Створити журнальну проводку"
 
 #. module: account_cutoff_base
 #: model:ir.model.fields,field_description:account_cutoff_base.field_account_cutoff__create_uid
@@ -249,12 +249,12 @@ msgstr "Рахунок відсікання"
 #. module: account_cutoff_base
 #: model:ir.model.fields,field_description:account_cutoff_base.field_account_cutoff_line__cutoff_account_code
 msgid "Cut-off Account Code"
-msgstr ""
+msgstr "Код рахунку відсікання"
 
 #. module: account_cutoff_base
 #: model:ir.model.fields,field_description:account_cutoff_base.field_account_cutoff__cutoff_journal_id
 msgid "Cut-off Account Journal"
-msgstr ""
+msgstr "Журнал рахунків відсікання"
 
 #. module: account_cutoff_base
 #: model:ir.actions.act_window,name:account_cutoff_base.account_cutoff_mapping_action
@@ -286,12 +286,12 @@ msgstr "Дата відсікання"
 #. module: account_cutoff_base
 #: model:ir.model.fields,field_description:account_cutoff_base.field_account_cutoff__move_id
 msgid "Cut-off Journal Entry"
-msgstr ""
+msgstr "Журнальна проводка відсікання"
 
 #. module: account_cutoff_base
 #: model:ir.model.fields,field_description:account_cutoff_base.field_account_cutoff__move_reversal_id
 msgid "Cut-off Journal Entry Reversal"
-msgstr ""
+msgstr "Сторнування запису журналу відсікання"
 
 #. module: account_cutoff_base
 #: model:ir.model.fields,field_description:account_cutoff_base.field_account_cutoff__line_ids
@@ -301,17 +301,17 @@ msgstr "Рядки відсікання"
 #. module: account_cutoff_base
 #: model:ir.model.fields,field_description:account_cutoff_base.field_account_cutoff_tax_line__cutoff_amount
 msgid "Cut-off Tax Amount"
-msgstr ""
+msgstr "Сума податку відсікання"
 
 #. module: account_cutoff_base
 #: model:ir.model.fields,field_description:account_cutoff_base.field_account_cutoff_line__tax_line_ids
 msgid "Cut-off Tax Lines"
-msgstr ""
+msgstr "Рядки податків відсікання"
 
 #. module: account_cutoff_base
 #: model_terms:ir.ui.view,arch_db:account_cutoff_base.account_cutoff_line_form
 msgid "Cut-off Taxes Lines"
-msgstr ""
+msgstr "Рядки податків відсікання"
 
 #. module: account_cutoff_base
 #: model:ir.model.fields,field_description:account_cutoff_base.field_account_cutoff_mapping__cutoff_type
@@ -427,7 +427,7 @@ msgstr "Чернетка"
 #. module: account_cutoff_base
 #: model:ir.model.fields.selection,name:account_cutoff_base.selection__account_cutoff__source_move_state__draft_posted
 msgid "Draft and Posted Entries"
-msgstr ""
+msgstr "Чернетки та проведені записи"
 
 #. module: account_cutoff_base
 #: model:ir.model.fields,field_description:account_cutoff_base.field_account_cutoff__message_follower_ids
@@ -442,7 +442,7 @@ msgstr "Підписники (контрагенти)"
 #. module: account_cutoff_base
 #: model:ir.model.fields,help:account_cutoff_base.field_account_cutoff__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
-msgstr ""
+msgstr "Піктограма Font Awesome, наприклад fa-tasks"
 
 #. module: account_cutoff_base
 #: model_terms:ir.ui.view,arch_db:account_cutoff_base.account_cutoff_filter
@@ -470,17 +470,17 @@ msgstr "Іконка"
 #. module: account_cutoff_base
 #: model:ir.model.fields,help:account_cutoff_base.field_account_cutoff__activity_exception_icon
 msgid "Icon to indicate an exception activity."
-msgstr ""
+msgstr "Піктограма для позначення дії-винятку."
 
 #. module: account_cutoff_base
 #: model:ir.model.fields,help:account_cutoff_base.field_account_cutoff__message_needaction
 msgid "If checked, new messages require your attention."
-msgstr ""
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
 
 #. module: account_cutoff_base
 #: model:ir.model.fields,help:account_cutoff_base.field_account_cutoff__message_has_error
 msgid "If checked, some messages have a delivery error."
-msgstr ""
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
 
 #. module: account_cutoff_base
 #: model:ir.model.fields,field_description:account_cutoff_base.field_account_cutoff__message_is_follower
@@ -512,7 +512,7 @@ msgstr "Останнє оновлення"
 #. module: account_cutoff_base
 #: model_terms:ir.ui.view,arch_db:account_cutoff_base.account_cutoff_form
 msgid "List view of lines"
-msgstr ""
+msgstr "Список рядків"
 
 #. module: account_cutoff_base
 #: model:ir.model.fields,field_description:account_cutoff_base.field_account_cutoff__message_has_error
@@ -572,27 +572,27 @@ msgstr "Кількість помилок"
 #. module: account_cutoff_base
 #: model:ir.model.fields,help:account_cutoff_base.field_account_cutoff__message_needaction_counter
 msgid "Number of messages requiring action"
-msgstr ""
+msgstr "Кількість повідомлень, що потребують дії"
 
 #. module: account_cutoff_base
 #: model:ir.model.fields,help:account_cutoff_base.field_account_cutoff__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr ""
+msgstr "Кількість повідомлень із помилкою доставки"
 
 #. module: account_cutoff_base
 #: model:ir.model.fields,field_description:account_cutoff_base.field_account_cutoff_line__origin_move_id
 msgid "Origin Journal Entry"
-msgstr ""
+msgstr "Початкова журнальна проводка"
 
 #. module: account_cutoff_base
 #: model:ir.model.fields,field_description:account_cutoff_base.field_account_cutoff_line__origin_move_date
 msgid "Origin Journal Entry Date"
-msgstr ""
+msgstr "Дата початкового запису журналу"
 
 #. module: account_cutoff_base
 #: model:ir.model.fields,field_description:account_cutoff_base.field_account_cutoff_line__origin_move_line_id
 msgid "Origin Journal Item"
-msgstr ""
+msgstr "Початковий журнальний запис"
 
 #. module: account_cutoff_base
 #: model:ir.model.fields,field_description:account_cutoff_base.field_account_cutoff_line__partner_id
@@ -603,7 +603,7 @@ msgstr "Партнер"
 #. module: account_cutoff_base
 #: model:ir.model.fields,field_description:account_cutoff_base.field_account_cutoff__move_partner
 msgid "Partner on Journal Items"
-msgstr ""
+msgstr "Контрагент у записах журналу"
 
 #. module: account_cutoff_base
 #: model:ir.model.fields,field_description:account_cutoff_base.field_res_company__default_cutoff_move_partner
@@ -660,12 +660,12 @@ msgstr "Кількість"
 #. module: account_cutoff_base
 #: model_terms:ir.ui.view,arch_db:account_cutoff_base.account_cutoff_form
 msgid "Re-Generate Lines"
-msgstr ""
+msgstr "Повторно створити рядки"
 
 #. module: account_cutoff_base
 #: model:ir.model.fields,field_description:account_cutoff_base.field_account_cutoff__move_ref
 msgid "Reference of the Cut-off Journal Entry"
-msgstr ""
+msgstr "Посилання на запис журналу відсікання"
 
 #. module: account_cutoff_base
 #: model:ir.model.fields,field_description:account_cutoff_base.field_account_cutoff_mapping__account_id
@@ -713,6 +713,10 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
+"Стан на основі дій\n"
+"Прострочено: строк уже минув\n"
+"Сьогодні: дата дії — сьогодні\n"
+"Заплановано: майбутні дії."
 
 #. module: account_cutoff_base
 #: model:ir.model,name:account_cutoff_base.model_account_tax
@@ -753,11 +757,14 @@ msgid ""
 "expense/revenue that is not the same as the original expense/revenue "
 "account, using the same concept as the fiscal positions."
 msgstr ""
+"Ці зіставлення рахунків дають змогу використовувати для розмежування "
+"витрат/доходів рахунок, відмінний від початкового рахунку витрат/доходів, за"
+" тим самим принципом, що й податкові позиції."
 
 #. module: account_cutoff_base
 #: model:ir.model.fields,field_description:account_cutoff_base.field_account_cutoff__total_cutoff_amount
 msgid "Total Cut-off Amount"
-msgstr ""
+msgstr "Загальна сума відсікання"
 
 #. module: account_cutoff_base
 #: model:ir.model.fields,field_description:account_cutoff_base.field_account_cutoff__cutoff_type
@@ -768,12 +775,12 @@ msgstr "Тип"
 #. module: account_cutoff_base
 #: model:ir.model.fields,help:account_cutoff_base.field_account_cutoff__activity_exception_decoration
 msgid "Type of the exception activity on record."
-msgstr ""
+msgstr "Тип дії-винятку для запису."
 
 #. module: account_cutoff_base
 #: model:ir.model.fields,field_description:account_cutoff_base.field_account_cutoff_line__price_unit
 msgid "Unit Price w/o Tax"
-msgstr ""
+msgstr "Ціна за одиницю без податку"
 
 #. module: account_cutoff_base
 #: model:ir.model.fields,field_description:account_cutoff_base.field_account_cutoff__website_message_ids
@@ -783,7 +790,7 @@ msgstr "Повідомлення вебсайту"
 #. module: account_cutoff_base
 #: model:ir.model.fields,help:account_cutoff_base.field_account_cutoff__website_message_ids
 msgid "Website communication history"
-msgstr ""
+msgstr "Історія комунікації через вебсайт"
 
 #. module: account_cutoff_base
 #. odoo-python

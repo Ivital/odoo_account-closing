@@ -106,3 +106,80 @@ msgstr "напр. 3.1.01.001"
 #: model_terms:ir.ui.view,arch_db:account_fiscal_year_closing_range.view_account_fiscalyear_closing_mapping_range_wizard_form
 msgid "e.g. Closing"
 msgstr "напр., Закриття"
+
+#. module: account_fiscal_year_closing_range
+#: model_terms:ir.ui.view,arch_db:account_fiscal_year_closing_range.view_account_fiscalyear_closing_template_form_range
+msgid ""
+"<i class=\"fa fa-exclamation-triangle mr-2\"/>\n"
+"                    Please save the template first before using the range wizard."
+msgstr ""
+"<i class=\"fa fa-exclamation-triangle mr-2\"/>\n"
+"                    Спочатку збережіть шаблон перед використанням майстра діапазону."
+
+#. module: account_fiscal_year_closing_range
+#: model_terms:ir.ui.view,arch_db:account_fiscal_year_closing_range.view_account_fiscalyear_closing_mapping_range_wizard_form
+msgid ""
+"<i class=\"fa fa-info-circle mr-2\"/>\n"
+"                    This wizard creates individual mapping lines for\n"
+"                    <strong>every account</strong> found within the specified range.\n"
+"                    Ideal for mapping entire groups of accounts to a single result."
+msgstr ""
+"<i class=\"fa fa-info-circle mr-2\"/>\n"
+"                    Цей майстер створює окремі рядки зіставлення для\n"
+"                    <strong>кожного рахунку</strong>, знайденого в указаному діапазоні.\n"
+"                    Ідеально підходить для зіставлення цілих груп рахунків з одним результатом."
+
+#. module: account_fiscal_year_closing_range
+#: model_terms:ir.ui.view,arch_db:account_fiscal_year_closing_range.view_account_fiscalyear_closing_mapping_range_wizard_form
+msgid "Account Code Range"
+msgstr "Діапазон кодів рахунків"
+
+#. module: account_fiscal_year_closing_range
+#: model_terms:ir.ui.view,arch_db:account_fiscal_year_closing_range.view_account_fiscalyear_closing_mapping_range_wizard_form
+msgid "Accounts to be Mapped"
+msgstr "Рахунки для зіставлення"
+
+#. module: account_fiscal_year_closing_range
+#: model:ir.model.fields,field_description:account_fiscal_year_closing_range.field_fiscalyear_closing_range_wizard__dest_account_code
+msgid "Destination Account Code"
+msgstr "Код рахунка призначення"
+
+#. module: account_fiscal_year_closing_range
+#: model:ir.model.fields,field_description:account_fiscal_year_closing_range.field_fiscalyear_closing_range_wizard__fyc_config_id
+msgid "Fiscal Year Closing Config"
+msgstr "Конфігурація закриття фінансового року"
+
+#. module: account_fiscal_year_closing_range
+#: model:ir.model.fields,field_description:account_fiscal_year_closing_range.field_fiscalyear_closing_range_wizard__fyc_config_template_id
+msgid "Fiscal Year Closing Config Template"
+msgstr "Шаблон конфігурації закриття фінансового року"
+
+#. module: account_fiscal_year_closing_range
+#: model:ir.actions.act_window,name:account_fiscal_year_closing_range.action_account_fiscalyear_closing_mapping_range_wizard
+msgid "Generate Account Range"
+msgstr "Створити діапазон рахунків"
+
+#. module: account_fiscal_year_closing_range
+#: model_terms:ir.ui.view,arch_db:account_fiscal_year_closing_range.view_account_fiscalyear_closing_mapping_range_wizard_form
+msgid "Generate Account Range Mappings"
+msgstr "Створити зіставлення діапазонів рахунків"
+
+#. module: account_fiscal_year_closing_range
+#: model_terms:ir.ui.view,arch_db:account_fiscal_year_closing_range.view_account_fiscalyear_closing_mapping_range_wizard_form
+msgid "Generate Mappings"
+msgstr "Створити зіставлення"
+
+#. module: account_fiscal_year_closing_range
+#: model:ir.model.fields,field_description:account_fiscal_year_closing_range.field_fiscalyear_closing_range_wizard__name_prefix
+msgid "Mapping Name Prefix"
+msgstr "Префікс назви зіставлення"
+
+#. module: account_fiscal_year_closing_range
+#: model:ir.model.fields,field_description:account_fiscal_year_closing_range.field_fiscalyear_closing_range_wizard__preview_account_ids
+msgid "Preview Accounts"
+msgstr "Попередній перегляд рахунків"
+
+#. module: account_fiscal_year_closing_range
+#: model_terms:ir.ui.view,arch_db:account_fiscal_year_closing_range.view_account_fiscalyear_closing_mapping_range_wizard_form
+msgid "The account code where the balance will be transferred to."
+msgstr "Код рахунка, на який буде перенесено баланс."
