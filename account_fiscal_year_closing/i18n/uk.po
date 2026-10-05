@@ -254,3 +254,374 @@ msgstr "Унікальний код"
 #: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing__year
 msgid "Year"
 msgstr "Рік"
+
+#. module: account_fiscal_year_closing
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_config__mapping_ids
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_config_template__mapping_ids
+msgid "Account mappings"
+msgstr "Зіставлення рахунків"
+
+#. module: account_fiscal_year_closing
+#: model_terms:ir.ui.view,arch_db:account_fiscal_year_closing.view_account_fiscalyear_closing_form
+#: model_terms:ir.ui.view,arch_db:account_fiscal_year_closing.view_account_fiscalyear_closing_template_form
+msgid "Accounts closing types"
+msgstr "Типи закриття рахунків"
+
+#. module: account_fiscal_year_closing
+#: model_terms:ir.ui.view,arch_db:account_fiscal_year_closing.view_account_fiscalyear_closing_form
+#: model_terms:ir.ui.view,arch_db:account_fiscal_year_closing.view_account_fiscalyear_closing_template_form
+msgid "Accounts mapping"
+msgstr "Зіставлення рахунків"
+
+#. module: account_fiscal_year_closing
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_template__chart_template
+msgid "Available for"
+msgstr "Доступно для"
+
+#. module: account_fiscal_year_closing
+#: model_terms:ir.ui.view,arch_db:account_fiscal_year_closing.view_account_fiscalyear_closing_form
+msgid "Calculate"
+msgstr "Розрахувати"
+
+#. module: account_fiscal_year_closing
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing__calculation_date
+msgid "Calculation date"
+msgstr "Дата розрахунку"
+
+#. module: account_fiscal_year_closing
+#: model_terms:ir.ui.view,arch_db:account_fiscal_year_closing.view_account_fiscalyear_closing_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: account_fiscal_year_closing
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing__chart_template
+msgid "Chart Template"
+msgstr "Шаблон плану рахунків"
+
+#. module: account_fiscal_year_closing
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing__check_draft_moves
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_abstract__check_draft_moves
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_template__check_draft_moves
+msgid "Check draft moves"
+msgstr "Перевірити чернетки переміщень"
+
+#. module: account_fiscal_year_closing
+#: model_terms:ir.ui.view,arch_db:account_fiscal_year_closing.view_account_fiscalyear_closing_unbalanced_move_form
+msgid "Close"
+msgstr "Закрити"
+
+#. module: account_fiscal_year_closing
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_config__move_type__closing
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_config_abstract__move_type__closing
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_config_template__move_type__closing
+msgid "Closing"
+msgstr "Закриття"
+
+#. module: account_fiscal_year_closing
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing__closing_template_id
+msgid "Closing template"
+msgstr "Шаблон закриття"
+
+#. module: account_fiscal_year_closing
+#: model_terms:ir.ui.view,arch_db:account_fiscal_year_closing.view_account_move_filter
+msgid "Closing type"
+msgstr "Тип закриття"
+
+#. module: account_fiscal_year_closing
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_config__closing_type_ids
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_config_template__closing_type_ids
+msgid "Closing types"
+msgstr "Типи закриття"
+
+#. module: account_fiscal_year_closing
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type__account_type__expense_direct_cost
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type_abstract__account_type__expense_direct_cost
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type_template__account_type__expense_direct_cost
+msgid "Cost of Revenue"
+msgstr "Собівартість реалізації"
+
+#. module: account_fiscal_year_closing
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type__account_type__liability_credit_card
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type_abstract__account_type__liability_credit_card
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type_template__account_type__liability_credit_card
+msgid "Credit Card"
+msgstr "Кредитна картка"
+
+#. module: account_fiscal_year_closing
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type__account_type__asset_current
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type_abstract__account_type__asset_current
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type_template__account_type__asset_current
+msgid "Current Assets"
+msgstr "Оборотні активи"
+
+#. module: account_fiscal_year_closing
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type__account_type__liability_current
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type_abstract__account_type__liability_current
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type_template__account_type__liability_current
+msgid "Current Liabilities"
+msgstr "Поточні зобов'язання"
+
+#. module: account_fiscal_year_closing
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type__account_type__equity_unaffected
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type_abstract__account_type__equity_unaffected
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type_template__account_type__equity_unaffected
+msgid "Current Year Earnings"
+msgstr "Прибуток поточного року"
+
+#. module: account_fiscal_year_closing
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_config__closing_type_default
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_config_abstract__closing_type_default
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_config_template__closing_type_default
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_type__closing_type
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_type_abstract__closing_type
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_type_template__closing_type
+msgid "Default closing type"
+msgstr "Типовий тип закриття"
+
+#. module: account_fiscal_year_closing
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type__account_type__expense_depreciation
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type_abstract__account_type__expense_depreciation
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type_template__account_type__expense_depreciation
+msgid "Depreciation"
+msgstr "Амортизація"
+
+#. module: account_fiscal_year_closing
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_mapping__dest_account_id
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_mapping_template__dest_account
+msgid "Destination account"
+msgstr "Рахунок призначення"
+
+#. module: account_fiscal_year_closing
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing__state__draft
+#: model_terms:ir.ui.view,arch_db:account_fiscal_year_closing.view_account_fiscalyear_closing_form
+#: model_terms:ir.ui.view,arch_db:account_fiscal_year_closing.view_account_fiscalyear_closing_search
+msgid "Draft"
+msgstr "Чернетка"
+
+#. module: account_fiscal_year_closing
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type__account_type__equity
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type_abstract__account_type__equity
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type_template__account_type__equity
+msgid "Equity"
+msgstr "Власний капітал"
+
+#. module: account_fiscal_year_closing
+#: model_terms:ir.ui.view,arch_db:account_fiscal_year_closing.view_account_fiscalyear_closing_form
+msgid "Fiscal closing"
+msgstr "Закриття фінансового року"
+
+#. module: account_fiscal_year_closing
+#: model:ir.model,name:account_fiscal_year_closing.model_account_fiscalyear_closing
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_bank_statement_line__fyc_id
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_move__fyc_id
+#: model_terms:ir.ui.view,arch_db:account_fiscal_year_closing.view_account_fiscalyear_closing_form
+#: model_terms:ir.ui.view,arch_db:account_fiscal_year_closing.view_account_fiscalyear_closing_search
+#: model_terms:ir.ui.view,arch_db:account_fiscal_year_closing.view_account_fiscalyear_closing_template_form
+msgid "Fiscal year closing"
+msgstr "Закриття фінансового року"
+
+#. module: account_fiscal_year_closing
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_mapping__fyc_config_id
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_type__fyc_config_id
+msgid "Fiscal year closing config"
+msgstr "Конфігурація закриття фінансового року"
+
+#. module: account_fiscal_year_closing
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_mapping_template__template_config_id
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_type_template__template_config_id
+msgid "Fiscal year closing config template"
+msgstr "Шаблон конфігурації закриття фінансового року"
+
+#. module: account_fiscal_year_closing
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type__account_type__asset_fixed
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type_abstract__account_type__asset_fixed
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type_template__account_type__asset_fixed
+msgid "Fixed Assets"
+msgstr "Основні засоби"
+
+#. module: account_fiscal_year_closing
+#: model_terms:ir.ui.view,arch_db:account_fiscal_year_closing.view_account_fiscalyear_closing_search
+msgid "In process"
+msgstr "У процесі"
+
+#. module: account_fiscal_year_closing
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type__account_type__income
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type_abstract__account_type__income
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type_template__account_type__income
+msgid "Income"
+msgstr "Дохід"
+
+#. module: account_fiscal_year_closing
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_config__inverse
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_config_abstract__inverse
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_config_template__inverse
+msgid "Inverse config"
+msgstr "Зворотна конфігурація"
+
+#. module: account_fiscal_year_closing
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing__write_uid
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_config__write_uid
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_config_template__write_uid
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_mapping__write_uid
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_mapping_template__write_uid
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_template__write_uid
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_type__write_uid
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_type_template__write_uid
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_unbalanced_move__write_uid
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_unbalanced_move_line__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: account_fiscal_year_closing
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing__write_date
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_config__write_date
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_config_template__write_date
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_mapping__write_date
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_mapping_template__write_date
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_template__write_date
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_type__write_date
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_type_template__write_date
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_unbalanced_move__write_date
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_unbalanced_move_line__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: account_fiscal_year_closing
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_config__move_type__loss_profit
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_config_abstract__move_type__loss_profit
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_config_template__move_type__loss_profit
+msgid "Loss & Profit"
+msgstr "Прибутки та збитки"
+
+#. module: account_fiscal_year_closing
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing__move_config_ids
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_template__move_config_ids
+#: model_terms:ir.ui.view,arch_db:account_fiscal_year_closing.view_account_fiscalyear_closing_form
+#: model_terms:ir.ui.view,arch_db:account_fiscal_year_closing.view_account_fiscalyear_closing_template_form
+msgid "Moves configuration"
+msgstr "Конфігурація переміщень"
+
+#. module: account_fiscal_year_closing
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type__account_type__asset_non_current
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type_abstract__account_type__asset_non_current
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type_template__account_type__asset_non_current
+msgid "Non-current Assets"
+msgstr "Необоротні активи"
+
+#. module: account_fiscal_year_closing
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type__account_type__liability_non_current
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type_abstract__account_type__liability_non_current
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type_template__account_type__liability_non_current
+msgid "Non-current Liabilities"
+msgstr "Довгострокові зобов'язання"
+
+#. module: account_fiscal_year_closing
+#. odoo-python
+#: code:addons/account_fiscal_year_closing/models/account_move.py:0
+msgid "None"
+msgstr "Немає"
+
+#. module: account_fiscal_year_closing
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type__account_type__off_balance
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type_abstract__account_type__off_balance
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type_template__account_type__off_balance
+msgid "Off-Balance Sheet"
+msgstr "Позабалансовий"
+
+#. module: account_fiscal_year_closing
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_config__move_type__opening
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_config_abstract__move_type__opening
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_config_template__move_type__opening
+msgid "Opening"
+msgstr "Відкриття"
+
+#. module: account_fiscal_year_closing
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing__date_opening
+msgid "Opening date"
+msgstr "Дата відкриття"
+
+#. module: account_fiscal_year_closing
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_config__move_type__other
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_config_abstract__move_type__other
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_config_template__move_type__other
+msgid "Other"
+msgstr "Інше"
+
+#. module: account_fiscal_year_closing
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type__account_type__income_other
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type_abstract__account_type__income_other
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type_template__account_type__income_other
+msgid "Other Income"
+msgstr "Інший дохід"
+
+#. module: account_fiscal_year_closing
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type__account_type__liability_payable
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type_abstract__account_type__liability_payable
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type_template__account_type__liability_payable
+msgid "Payable"
+msgstr "До сплати"
+
+#. module: account_fiscal_year_closing
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type__account_type__asset_prepayments
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type_abstract__account_type__asset_prepayments
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type_template__account_type__asset_prepayments
+msgid "Prepayments"
+msgstr "Передплати"
+
+#. module: account_fiscal_year_closing
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing__state__calculated
+msgid "Processed"
+msgstr "Оброблено"
+
+#. module: account_fiscal_year_closing
+#: model_terms:ir.ui.view,arch_db:account_fiscal_year_closing.view_account_fiscalyear_closing_form
+msgid "Recalculate"
+msgstr "Перерахувати"
+
+#. module: account_fiscal_year_closing
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type__account_type__asset_receivable
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type_abstract__account_type__asset_receivable
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type_template__account_type__asset_receivable
+msgid "Receivable"
+msgstr "До отримання"
+
+#. module: account_fiscal_year_closing
+#: model_terms:ir.ui.view,arch_db:account_fiscal_year_closing.view_account_fiscalyear_closing_form
+msgid "Show move lines"
+msgstr "Показувати рядки переміщень"
+
+#. module: account_fiscal_year_closing
+#: model_terms:ir.ui.view,arch_db:account_fiscal_year_closing.view_account_fiscalyear_closing_form
+msgid "Show moves"
+msgstr "Показувати переміщення"
+
+#. module: account_fiscal_year_closing
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_mapping__src_accounts
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_mapping_template__src_accounts
+msgid "Source accounts"
+msgstr "Вихідні рахунки"
+
+#. module: account_fiscal_year_closing
+#: model_terms:ir.ui.view,arch_db:account_fiscal_year_closing.view_account_fiscalyear_closing_unbalanced_move_form
+msgid "Total credit"
+msgstr "Загальний кредит"
+
+#. module: account_fiscal_year_closing
+#: model_terms:ir.ui.view,arch_db:account_fiscal_year_closing.view_account_fiscalyear_closing_unbalanced_move_form
+msgid "Total debit"
+msgstr "Загальний дебет"
+
+#. module: account_fiscal_year_closing
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_config__closing_type_default__unreconciled
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_config_abstract__closing_type_default__unreconciled
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_config_template__closing_type_default__unreconciled
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type__closing_type__unreconciled
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type_abstract__closing_type__unreconciled
+#: model:ir.model.fields.selection,name:account_fiscal_year_closing.selection__account_fiscalyear_closing_type_template__closing_type__unreconciled
+msgid "Un-reconciled"
+msgstr "Незвірено"
+
+#. module: account_fiscal_year_closing
+#: model:ir.model.fields,field_description:account_fiscal_year_closing.field_account_fiscalyear_closing_unbalanced_move_line__move_id
+msgid "Unbalanced move"
+msgstr "Незбалансоване проведення"

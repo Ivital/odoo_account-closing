@@ -43,3 +43,66 @@ msgstr "Відображувана назва"
 #: code:addons/account_fiscal_year_closing_range/wizards/mapping_range_wizard.py:0
 msgid "Success"
 msgstr "Успішно"
+
+#. module: account_fiscal_year_closing_range
+#: model_terms:ir.ui.view,arch_db:account_fiscal_year_closing_range.view_account_fiscalyear_closing_form_range
+#: model_terms:ir.ui.view,arch_db:account_fiscal_year_closing_range.view_account_fiscalyear_closing_template_form_range
+msgid ""
+"<i class=\"fa fa-info-circle mr-2\"/>\n"
+"                        Use the wizard to generate individual mapping lines for a specific range of accounts."
+msgstr ""
+"<i class=\"fa fa-info-circle mr-2\"/>\n"
+"                        Скористайтеся майстром, щоб згенерувати окремі рядки зіставлення для певного діапазону рахунків."
+
+#. module: account_fiscal_year_closing_range
+#: model_terms:ir.ui.view,arch_db:account_fiscal_year_closing_range.view_account_fiscalyear_closing_mapping_range_wizard_form
+msgid "<span>to</span>"
+msgstr "<span>до</span>"
+
+#. module: account_fiscal_year_closing_range
+#: model_terms:ir.ui.view,arch_db:account_fiscal_year_closing_range.view_account_fiscalyear_closing_mapping_range_wizard_form
+msgid "Discard"
+msgstr "Відкинути"
+
+#. module: account_fiscal_year_closing_range
+#: model:ir.model.fields,field_description:account_fiscal_year_closing_range.field_account_fiscalyear_closing_mapping__code_end
+#: model:ir.model.fields,field_description:account_fiscal_year_closing_range.field_fiscalyear_closing_range_wizard__code_end
+msgid "End Account Code"
+msgstr "Кінцевий код рахунку"
+
+#. module: account_fiscal_year_closing_range
+#: model_terms:ir.ui.view,arch_db:account_fiscal_year_closing_range.view_account_fiscalyear_closing_form_range
+#: model_terms:ir.ui.view,arch_db:account_fiscal_year_closing_range.view_account_fiscalyear_closing_template_form_range
+msgid "Generate Range"
+msgstr "Згенерувати діапазон"
+
+#. module: account_fiscal_year_closing_range
+#: model:ir.model.fields,field_description:account_fiscal_year_closing_range.field_fiscalyear_closing_range_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: account_fiscal_year_closing_range
+#: model:ir.model.fields,field_description:account_fiscal_year_closing_range.field_fiscalyear_closing_range_wizard__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: account_fiscal_year_closing_range
+#: model_terms:ir.ui.view,arch_db:account_fiscal_year_closing_range.view_account_fiscalyear_closing_mapping_range_wizard_form
+msgid "Source Range"
+msgstr "Діапазон джерела"
+
+#. module: account_fiscal_year_closing_range
+#: model:ir.model.fields,field_description:account_fiscal_year_closing_range.field_account_fiscalyear_closing_mapping__code_start
+#: model:ir.model.fields,field_description:account_fiscal_year_closing_range.field_fiscalyear_closing_range_wizard__code_start
+msgid "Start Account Code"
+msgstr "Початковий код рахунку"
+
+#. module: account_fiscal_year_closing_range
+#: model_terms:ir.ui.view,arch_db:account_fiscal_year_closing_range.view_account_fiscalyear_closing_mapping_range_wizard_form
+msgid "e.g. 3.1.01.001"
+msgstr "напр. 3.1.01.001"
+
+#. module: account_fiscal_year_closing_range
+#: model_terms:ir.ui.view,arch_db:account_fiscal_year_closing_range.view_account_fiscalyear_closing_mapping_range_wizard_form
+msgid "e.g. Closing"
+msgstr "напр., Закриття"

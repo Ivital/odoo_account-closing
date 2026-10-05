@@ -45,3 +45,13 @@ msgstr "Стан"
 #: model:ir.model.fields,field_description:account_cutoff_start_end_dates.field_account_cutoff_line__total_days
 msgid "Total Days"
 msgstr "Усього днів"
+
+#. module: account_cutoff_start_end_dates
+#: model:ir.model,name:account_cutoff_start_end_dates.model_account_cutoff_line
+msgid "Account Cut-off Line"
+msgstr "Рядок відсікання рахунку"
+
+#. module: account_cutoff_start_end_dates
+#: model:ir.model.fields,field_description:account_cutoff_start_end_dates.field_account_cutoff__source_journal_ids
+msgid "Source Journals"
+msgstr "Журнали-джерела"

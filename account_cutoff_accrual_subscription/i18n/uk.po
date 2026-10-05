@@ -102,3 +102,84 @@ msgstr "Тип"
 #: model:ir.model.fields,field_description:account_cutoff_accrual_subscription.field_account_cutoff_accrual_subscription__type_tax_use
 msgid "Type Tax Use"
 msgstr "Тип використання податку"
+
+#. module: account_cutoff_accrual_subscription
+#: model:ir.model.fields,field_description:account_cutoff_accrual_subscription.field_account_cutoff_accrual_subscription__analytic_distribution
+msgid "Analytic Distribution"
+msgstr "Аналітичний розподіл"
+
+#. module: account_cutoff_accrual_subscription
+#: model:ir.model.fields,field_description:account_cutoff_accrual_subscription.field_account_cutoff_accrual_subscription__analytic_precision
+msgid "Analytic Precision"
+msgstr "Точність аналітики"
+
+#. module: account_cutoff_accrual_subscription
+#: model:ir.model.fields.selection,name:account_cutoff_accrual_subscription.selection__account_cutoff_accrual_subscription__partner_type__any
+msgid "Any Partner"
+msgstr "Будь-який контрагент"
+
+#. module: account_cutoff_accrual_subscription
+#: model:ir.model.fields,field_description:account_cutoff_accrual_subscription.field_account_cutoff_accrual_subscription__company_currency_id
+msgid "Company Currency"
+msgstr "Валюта компанії"
+
+#. module: account_cutoff_accrual_subscription
+#: model:ir.model.fields,field_description:account_cutoff_accrual_subscription.field_account_cutoff_accrual_subscription__distribution_analytic_account_ids
+msgid "Distribution Analytic Account"
+msgstr "Аналітичний рахунок розподілу"
+
+#. module: account_cutoff_accrual_subscription
+#. odoo-python
+#: code:addons/account_cutoff_accrual_subscription/models/account_cutoff.py:0
+#: model:ir.model.fields.selection,name:account_cutoff_accrual_subscription.selection__account_cutoff_accrual_subscription__subscription_type__expense
+#: model_terms:ir.ui.view,arch_db:account_cutoff_accrual_subscription.account_cutoff_accrual_subscription_search
+msgid "Expense"
+msgstr "Витрата"
+
+#. module: account_cutoff_accrual_subscription
+#: model:ir.model.fields,field_description:account_cutoff_accrual_subscription.field_account_cutoff_accrual_subscription__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: account_cutoff_accrual_subscription
+#: model:ir.model.fields,field_description:account_cutoff_accrual_subscription.field_account_cutoff_accrual_subscription__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: account_cutoff_accrual_subscription
+#: model:ir.model.fields,field_description:account_cutoff_accrual_subscription.field_account_cutoff_accrual_subscription__min_amount
+msgid "Minimum Amount"
+msgstr "Мінімальна сума"
+
+#. module: account_cutoff_accrual_subscription
+#: model:ir.model.fields.selection,name:account_cutoff_accrual_subscription.selection__account_cutoff_accrual_subscription__periodicity__month
+msgid "Monthly"
+msgstr "Щомісяця"
+
+#. module: account_cutoff_accrual_subscription
+#: model:ir.model.fields.selection,name:account_cutoff_accrual_subscription.selection__account_cutoff_accrual_subscription__partner_type__none
+msgid "No Partner"
+msgstr "Без контрагента"
+
+#. module: account_cutoff_accrual_subscription
+#: model:ir.model.fields.selection,name:account_cutoff_accrual_subscription.selection__account_cutoff_accrual_subscription__periodicity__quarter
+msgid "Quarterly"
+msgstr "Щокварталу"
+
+#. module: account_cutoff_accrual_subscription
+#. odoo-python
+#: code:addons/account_cutoff_accrual_subscription/models/account_cutoff.py:0
+#: model:ir.model.fields.selection,name:account_cutoff_accrual_subscription.selection__account_cutoff_accrual_subscription__subscription_type__revenue
+#: model_terms:ir.ui.view,arch_db:account_cutoff_accrual_subscription.account_cutoff_accrual_subscription_search
+msgid "Revenue"
+msgstr "Дохід"
+
+#. module: account_cutoff_accrual_subscription
+#: model:ir.model.fields.selection,name:account_cutoff_accrual_subscription.selection__account_cutoff_accrual_subscription__periodicity__semester
+msgid "Semesterly"
+msgstr "Раз на півріччя"
+
+#. module: account_cutoff_accrual_subscription
+#: model:ir.model.fields.selection,name:account_cutoff_accrual_subscription.selection__account_cutoff_accrual_subscription__periodicity__year
+msgid "Yearly"
+msgstr "Щороку"
