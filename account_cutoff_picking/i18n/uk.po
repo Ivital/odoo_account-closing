@@ -69,3 +69,99 @@ msgstr ""
 " до дати відсікання включно. N — це інтервал аналізу. Якщо збільшити "
 "інтервал аналізу, Odoo витрачатиме більше часу на формування рядків "
 "відсікання."
+
+#. module: account_cutoff_picking
+#. odoo-python
+#: code:addons/account_cutoff_picking/models/account_cutoff.py:0
+msgid "%(qty)s %(uom)s (%(move_type)s %(move_name)s dated %(date)s)"
+msgstr "%(qty)s %(uom)s (%(move_type)s %(move_name)s від %(date)s)"
+
+#. module: account_cutoff_picking
+#. odoo-python
+#: code:addons/account_cutoff_picking/models/account_cutoff.py:0
+msgid ""
+"%(qty)s %(uom)s (picking %(picking)s transfered on %(date)s from "
+"%(src_location)s to %(dest_location)s)"
+msgstr ""
+"%(qty)s %(uom)s (переміщення %(picking)s виконано %(date)s з "
+"%(src_location)s до %(dest_location)s)"
+
+#. module: account_cutoff_picking
+#. odoo-python
+#: code:addons/account_cutoff_picking/models/account_cutoff.py:0
+msgid ""
+"<strong>Purchase Order:</strong> %(order)s confirmed on "
+"%(confirm_date)s<br><strong>Purchase Order Line:</strong> %(order_line)s "
+"(ordered qty: %(qty)s %(uom)s)"
+msgstr ""
+"<strong>Замовлення на закупівлю:</strong> %(order)s підтверджено "
+"%(confirm_date)s<br><strong>Рядок замовлення на закупівлю:</strong> "
+"%(order_line)s (замовлена кількість: %(qty)s %(uom)s)"
+
+#. module: account_cutoff_picking
+#. odoo-python
+#: code:addons/account_cutoff_picking/models/account_cutoff.py:0
+msgid ""
+"<strong>Sale Order:</strong> %(order)s confirmed on "
+"%(confirm_date)s<br><strong>Sale Order Line:</strong> %(order_line)s "
+"(ordered qty: %(qty)s %(uom)s)"
+msgstr ""
+"<strong>Замовлення продажу:</strong> %(order)s підтверджено "
+"%(confirm_date)s<br><strong>Рядок замовлення продажу:</strong> "
+"%(order_line)s (замовлена кількість: %(qty)s %(uom)s)"
+
+#. module: account_cutoff_picking
+#. odoo-python
+#: code:addons/account_cutoff_picking/models/account_cutoff.py:0
+msgid ""
+"Missing expense account on product '%(product)s' or on its related product "
+"category '%(categ)s'."
+msgstr ""
+"Відсутній рахунок витрат у товарі «%(product)s» або його категорії "
+"«%(categ)s»."
+
+#. module: account_cutoff_picking
+#. odoo-python
+#: code:addons/account_cutoff_picking/models/account_cutoff.py:0
+msgid ""
+"Missing income account on product '%(product)s' or on its related product "
+"category '%(categ)s'."
+msgstr ""
+"Відсутній рахунок доходів у товарі «%(product)s» або його категорії "
+"«%(categ)s»."
+
+#. module: account_cutoff_picking
+#. odoo-python
+#: code:addons/account_cutoff_picking/models/account_cutoff.py:0
+msgid "Pre-cutoff delivered quantity details:"
+msgstr "Деталі доставленої кількості до граничної дати:"
+
+#. module: account_cutoff_picking
+#. odoo-python
+#: code:addons/account_cutoff_picking/models/account_cutoff.py:0
+msgid "Pre-cutoff delivered quantity minus invoiced quantity:"
+msgstr "Доставлена до граничної дати кількість мінус виставлена в рахунках:"
+
+#. module: account_cutoff_picking
+#. odoo-python
+#: code:addons/account_cutoff_picking/models/account_cutoff.py:0
+msgid "Pre-cutoff delivered quantity:"
+msgstr "Кількість доставленого до відсікання:"
+
+#. module: account_cutoff_picking
+#. odoo-python
+#: code:addons/account_cutoff_picking/models/account_cutoff.py:0
+msgid "Pre-cutoff invoiced quantity details:"
+msgstr "Деталі кількості, виставленої до граничної дати:"
+
+#. module: account_cutoff_picking
+#. odoo-python
+#: code:addons/account_cutoff_picking/models/account_cutoff.py:0
+msgid "Pre-cutoff invoiced quantity minus delivered quantity:"
+msgstr "Виставлена до граничної дати кількість мінус доставлена:"
+
+#. module: account_cutoff_picking
+#. odoo-python
+#: code:addons/account_cutoff_picking/models/account_cutoff.py:0
+msgid "Pre-cutoff invoiced quantity:"
+msgstr "Кількість у рахунках до відсікання:"

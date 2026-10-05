@@ -325,7 +325,7 @@ msgstr "Тип відсікання"
 #. odoo-python
 #: code:addons/account_cutoff_base/models/account_cutoff.py:0
 msgid "Cut-off lines re-generated"
-msgstr ""
+msgstr "Рядки відсікання згенеровано повторно"
 
 #. module: account_cutoff_base
 #: model:ir.ui.menu,name:account_cutoff_base.cutoff_menu
@@ -352,7 +352,7 @@ msgstr "Рядки відсікання"
 #. odoo-python
 #: code:addons/account_cutoff_base/models/account_cutoff.py:0
 msgid "Cutoff date is not set."
-msgstr ""
+msgstr "Дата відсікання не задана."
 
 #. module: account_cutoff_base
 #: model:ir.model.fields,field_description:account_cutoff_base.field_res_company__default_accrued_expense_account_id
@@ -494,7 +494,7 @@ msgstr "Є підписником"
 #. odoo-python
 #: code:addons/account_cutoff_base/models/account_cutoff.py:0
 msgid "Journal entry generated"
-msgstr ""
+msgstr "Проведення журналу згенеровано"
 
 #. module: account_cutoff_base
 #: model:ir.model.fields,field_description:account_cutoff_base.field_account_cutoff__write_uid
@@ -535,6 +535,9 @@ msgid ""
 "'%(tax_display_name)s' or on the accounting configuration page of the "
 "company '%(company)s'."
 msgstr ""
+"Відсутнє «%(tax_account_field_label)s». Налаштуйте його в податку "
+"«%(tax_display_name)s» або на сторінці бухгалтерських налаштувань компанії "
+"«%(company)s»."
 
 #. module: account_cutoff_base
 #: model:ir.model.fields,field_description:account_cutoff_base.field_account_cutoff__my_activity_date_deadline
@@ -747,6 +750,8 @@ msgid ""
 "The Cut-off Journal Entry already exists. You should delete it before "
 "running this function."
 msgstr ""
+"Журнальне проведення відсічення вже існує. Видаліть його перед запуском цієї"
+" функції."
 
 #. module: account_cutoff_base
 #. odoo-python
@@ -754,6 +759,8 @@ msgstr ""
 msgid ""
 "There are no lines on this Cut-off, so we can't create a Journal Entry."
 msgstr ""
+"У цьому відсіченні немає рядків, тому не можна створити журнальне "
+"проведення."
 
 #. module: account_cutoff_base
 #: model_terms:ir.actions.act_window,help:account_cutoff_base.account_cutoff_mapping_action
@@ -801,7 +808,7 @@ msgstr "Історія комунікації через вебсайт"
 #. odoo-python
 #: code:addons/account_cutoff_base/models/account_cutoff.py:0
 msgid "You cannot delete cutoff records that are in done state."
-msgstr ""
+msgstr "Не можна видаляти записи відсічення у стані «Виконано»."
 
 #. module: account_cutoff_base
 #. odoo-python

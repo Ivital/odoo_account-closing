@@ -205,3 +205,29 @@ msgid "Wizard for generating account range mappings in fiscal year closing"
 msgstr ""
 "Майстер створення зіставлень діапазонів рахунків під час закриття "
 "фінансового року"
+
+#. module: account_fiscal_year_closing_range
+#. odoo-python
+#: code:addons/account_fiscal_year_closing_range/wizards/mapping_range_wizard.py:0
+msgid "%(count)d mapping lines created using destination code %(code)s."
+msgstr "Створено %(count)d рядків відповідності з кодом призначення %(code)s."
+
+#. module: account_fiscal_year_closing_range
+#. odoo-python
+#: code:addons/account_fiscal_year_closing_range/wizards/mapping_range_wizard.py:0
+msgid ""
+"Cannot generate range mappings: The fiscal year closing template is not "
+"properly linked to a parent template.This usually happens when trying to use"
+" the wizard before saving the template. Please save the template first and "
+"try again."
+msgstr ""
+"Неможливо згенерувати зіставлення діапазонів: шаблон закриття фінансового "
+"року неправильно пов’язаний із батьківським шаблоном. Зазвичай це "
+"трапляється, якщо майстер використовується до збереження шаблону. Спочатку "
+"збережіть шаблон і повторіть спробу."
+
+#. module: account_fiscal_year_closing_range
+#. odoo-python
+#: code:addons/account_fiscal_year_closing_range/wizards/mapping_range_wizard.py:0
+msgid "No accounts found in the selected range."
+msgstr "У вибраному діапазоні не знайдено рахунків."

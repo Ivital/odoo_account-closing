@@ -218,3 +218,101 @@ msgstr "Типова сума резерву має бути додатною."
 #: model:ir.model.constraint,message:account_cutoff_accrual_subscription.constraint_account_cutoff_accrual_subscription_min_amount_positive
 msgid "The minimum amount must be positive."
 msgstr "Мінімальна сума має бути додатною."
+
+#. module: account_cutoff_accrual_subscription
+#. odoo-python
+#: code:addons/account_cutoff_accrual_subscription/models/account_cutoff.py:0
+msgid ""
+"%(start)s → %(end)s%(prorata)s: %(sub_type)s %(amount)s over min. amount ⇒ "
+"no provisionning"
+msgstr ""
+"%(start)s → %(end)s%(prorata)s: %(sub_type)s %(amount)s понад мін. суму ⇒ "
+"без резервування"
+
+#. module: account_cutoff_accrual_subscription
+#. odoo-python
+#: code:addons/account_cutoff_accrual_subscription/models/account_cutoff.py:0
+msgid ""
+"%(start)s → %(end)s%(prorata)s: %(sub_type)s %(amount)s under min. amount "
+"⇒provisionning %(cutoff_amount)s"
+msgstr ""
+"%(start)s → %(end)s%(prorata)s: %(sub_type)s %(amount)s нижче мін. суми ⇒ "
+"резервування %(cutoff_amount)s"
+
+#. module: account_cutoff_accrual_subscription
+#. odoo-python
+#: code:addons/account_cutoff_accrual_subscription/models/account_cutoff.py:0
+msgid ""
+"<p>No provision for subscription <a href=# data-oe-"
+"model=account.cutoff.accrual.subscription data-oe-"
+"id=%(id)d>%(name)s</a>.</p>"
+msgstr ""
+"<p>Немає резервування для підписки <a href=# data-oe-"
+"model=account.cutoff.accrual.subscription data-oe-"
+"id=%(id)d>%(name)s</a>.</p>"
+
+#. module: account_cutoff_accrual_subscription
+#. odoo-python
+#: code:addons/account_cutoff_accrual_subscription/models/account_cutoff.py:0
+msgid ""
+"CONFIG: %(periodicity)s periodicity, start date %(start_date)s, min. expense"
+" amount %(min_amount)s, default provision amount %(provision_amount)s"
+msgstr ""
+"КОНФІГ: періодичність %(periodicity)s, дата початку %(start_date)s, мін. "
+"сума витрат %(min_amount)s, типова сума резерву %(provision_amount)s"
+
+#. module: account_cutoff_accrual_subscription
+#. odoo-python
+#: code:addons/account_cutoff_accrual_subscription/models/account_cutoff.py:0
+msgid "Computing cut-offs from %d subscriptions."
+msgstr "Обчислення відсічень із %d підписок."
+
+#. module: account_cutoff_accrual_subscription
+#. odoo-python
+#: code:addons/account_cutoff_accrual_subscription/models/account_cutoff_accrual_subscription.py:0
+msgid "Missing partner on subscription '%s'."
+msgstr "Відсутній партнер у підписці '%s'."
+
+#. module: account_cutoff_accrual_subscription
+#. odoo-python
+#: code:addons/account_cutoff_accrual_subscription/models/account_cutoff.py:0
+msgid "Missing source journals."
+msgstr "Відсутні вихідні журнали."
+
+#. module: account_cutoff_accrual_subscription
+#. odoo-python
+#: code:addons/account_cutoff_accrual_subscription/models/account_cutoff.py:0
+msgid "Odoo cannot compute the fiscal year start date."
+msgstr "Odoo не може обчислити дату початку фінансового року."
+
+#. module: account_cutoff_accrual_subscription
+#. odoo-python
+#: code:addons/account_cutoff_accrual_subscription/models/account_cutoff_accrual_subscription.py:0
+msgid "On subscription %s, the start date is not the first day of a month."
+msgstr "У підписці %s дата початку не є першим днем місяця."
+
+#. module: account_cutoff_accrual_subscription
+#. odoo-python
+#: code:addons/account_cutoff_accrual_subscription/models/account_cutoff.py:0
+msgid "PERIODS:"
+msgstr "ПЕРІОДИ:"
+
+#. module: account_cutoff_accrual_subscription
+#. odoo-python
+#: code:addons/account_cutoff_accrual_subscription/models/account_cutoff.py:0
+msgid ""
+"PRORATED min. amount %(min_amount)s, default provisionning amount "
+"%(provision_amount)s"
+msgstr ""
+"ПРОПОРЦІЙНА мін. сума %(min_amount)s, типова сума резервування "
+"%(provision_amount)s"
+
+#. module: account_cutoff_accrual_subscription
+#. odoo-python
+#: code:addons/account_cutoff_accrual_subscription/models/account_cutoff.py:0
+msgid ""
+"The cutoffs with subscription only work when the cutoff date (%s) is the "
+"last day of a month."
+msgstr ""
+"Відсічення з підпискою працюють лише якщо дата відсічення (%s) є останнім "
+"днем місяця."

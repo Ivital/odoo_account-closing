@@ -792,3 +792,35 @@ msgid ""
 "There should be only one fiscal year closing for that year and company!"
 msgstr ""
 "Для цього року й компанії може існувати лише одне закриття фінансового року!"
+
+#. module: account_fiscal_year_closing
+#. odoo-python
+#: code:addons/account_fiscal_year_closing/models/account_fiscalyear_closing.py:0
+msgid "Fiscal closing move lines"
+msgstr "Рядки проведення фінансового закриття"
+
+#. module: account_fiscal_year_closing
+#. odoo-python
+#: code:addons/account_fiscal_year_closing/models/account_fiscalyear_closing.py:0
+msgid "Fiscal closing moves"
+msgstr "Проведення закриття фінансового року"
+
+#. module: account_fiscal_year_closing
+#. odoo-python
+#: code:addons/account_fiscal_year_closing/models/account_fiscalyear_closing.py:0
+msgid "No destination account '%s' found."
+msgstr "Рахунок призначення '%s' не знайдено."
+
+#. module: account_fiscal_year_closing
+#. odoo-python
+#: code:addons/account_fiscal_year_closing/models/account_fiscalyear_closing.py:0
+msgid "Unbalanced journal entry found"
+msgstr "Знайдено незбалансоване проведення"
+
+#. module: account_fiscal_year_closing
+#. odoo-python
+#: code:addons/account_fiscal_year_closing/models/account_fiscalyear_closing.py:0
+msgid "You can't remove any closing that is not in draft or cancelled state."
+msgstr ""
+"Не можна видалити закриття, яке не перебуває у стані чернетки або "
+"скасованому."
