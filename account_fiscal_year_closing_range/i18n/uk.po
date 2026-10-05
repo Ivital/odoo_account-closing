@@ -183,3 +183,25 @@ msgstr "Попередній перегляд рахунків"
 #: model_terms:ir.ui.view,arch_db:account_fiscal_year_closing_range.view_account_fiscalyear_closing_mapping_range_wizard_form
 msgid "The account code where the balance will be transferred to."
 msgstr "Код рахунка, на який буде перенесено баланс."
+
+#. module: account_fiscal_year_closing_range
+#: model:ir.model,name:account_fiscal_year_closing_range.model_account_fiscalyear_closing_config
+msgid "Fiscal year closing configuration"
+msgstr "Конфігурація закриття фінансового року"
+
+#. module: account_fiscal_year_closing_range
+#: model:ir.model,name:account_fiscal_year_closing_range.model_account_fiscalyear_closing_mapping
+msgid "Fiscal year closing mapping"
+msgstr "Зіставлення закриття фінансового року"
+
+#. module: account_fiscal_year_closing_range
+#: model:ir.model.fields,help:account_fiscal_year_closing_range.field_fiscalyear_closing_range_wizard__dest_account_code
+msgid "The code of the destination account (e.g., 3.1.01.001)"
+msgstr "Код рахунку призначення (наприклад, 3.1.01.001)"
+
+#. module: account_fiscal_year_closing_range
+#: model:ir.model,name:account_fiscal_year_closing_range.model_fiscalyear_closing_range_wizard
+msgid "Wizard for generating account range mappings in fiscal year closing"
+msgstr ""
+"Майстер створення зіставлень діапазонів рахунків під час закриття "
+"фінансового року"

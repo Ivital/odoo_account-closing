@@ -34,3 +34,38 @@ msgstr "дні"
 #: model_terms:ir.ui.view,arch_db:account_cutoff_picking.res_config_settings_view_form
 msgid "Picking Analysis Interval"
 msgstr "Інтервал аналізу переміщень"
+
+#. module: account_cutoff_picking
+#: model:ir.model.constraint,message:account_cutoff_picking.constraint_account_cutoff_picking_interval_days_positive
+#: model:ir.model.constraint,message:account_cutoff_picking.constraint_res_company_cutoff_picking_interval_days_positive
+msgid "The value of the field 'Analysis Interval' must be strictly positive."
+msgstr "Значення поля 'Analysis Interval' має бути строго додатним."
+
+#. module: account_cutoff_picking
+#: model:ir.model.fields,help:account_cutoff_picking.field_res_company__default_cutoff_picking_interval_days
+#: model:ir.model.fields,help:account_cutoff_picking.field_res_config_settings__dft_cutoff_picking_interval_days
+msgid ""
+"To generate the accrual/prepaid revenue/expenses based on picking dates vs "
+"invoice dates, Odoo will analyse all the pickings/invoices from N days "
+"before the cutoff date up to the cutoff date. N is the Analysis Interval. If"
+" you increase the analysis interval, Odoo will take more time to generate "
+"the cutoff lines."
+msgstr ""
+"Для створення нарахованих/передплачених доходів/витрат на основі дат "
+"складських переміщень і рахунків Odoo аналізує всі переміщення/рахунки від N"
+" днів до дати відсікання включно. N — інтервал аналізу. Збільшення інтервалу"
+" збільшує час створення рядків відсікання."
+
+#. module: account_cutoff_picking
+#: model:ir.model.fields,help:account_cutoff_picking.field_account_cutoff__picking_interval_days
+msgid ""
+"To generate the cutoffs based on picking dates vs invoice dates, Odoo will "
+"analyse all the pickings/invoices from N days before the cutoff date up to "
+"the cutoff date. N is the Analysis Interval. If you increase the analysis "
+"interval, Odoo will take more time to generate the cutoff lines."
+msgstr ""
+"Щоб сформувати відсікання на основі дат складських операцій і дат рахунків-"
+"фактур, Odoo аналізуватиме всі складські операції/рахунки-фактури від N днів"
+" до дати відсікання включно. N — це інтервал аналізу. Якщо збільшити "
+"інтервал аналізу, Odoo витрачатиме більше часу на формування рядків "
+"відсікання."

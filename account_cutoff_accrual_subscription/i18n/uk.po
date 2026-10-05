@@ -198,3 +198,23 @@ msgstr "Конкретний партнер"
 #: model_terms:ir.ui.view,arch_db:account_cutoff_accrual_subscription.account_cutoff_accrual_subscription_form
 msgid "Subscription Name"
 msgstr "Назва підписки"
+
+#. module: account_cutoff_accrual_subscription
+#: model:ir.model.fields,help:account_cutoff_accrual_subscription.field_account_cutoff_accrual_subscription__min_amount
+msgid "Minimum amount without taxes over the period"
+msgstr "Мінімальна сума без податків за період"
+
+#. module: account_cutoff_accrual_subscription
+#: model:ir.model,name:account_cutoff_accrual_subscription.model_account_cutoff_accrual_subscription
+msgid "Subscriptions to compute accrual cutoffs"
+msgstr "Підписки для розрахунку нарахувань відсікання"
+
+#. module: account_cutoff_accrual_subscription
+#: model:ir.model.constraint,message:account_cutoff_accrual_subscription.constraint_account_cutoff_accrual_subscription_provision_amount_positive
+msgid "The default provision amount must be positive."
+msgstr "Типова сума резерву має бути додатною."
+
+#. module: account_cutoff_accrual_subscription
+#: model:ir.model.constraint,message:account_cutoff_accrual_subscription.constraint_account_cutoff_accrual_subscription_min_amount_positive
+msgid "The minimum amount must be positive."
+msgstr "Мінімальна сума має бути додатною."

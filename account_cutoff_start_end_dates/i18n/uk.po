@@ -70,3 +70,44 @@ msgstr "Включати рядки податків"
 #: model_terms:ir.ui.view,arch_db:account_cutoff_start_end_dates.account_cutoff_form
 msgid "Leave Forecast Mode"
 msgstr "Режим прогнозу відпусток"
+
+#. module: account_cutoff_start_end_dates
+#: model:ir.model,name:account_cutoff_start_end_dates.model_account_cutoff
+msgid "Account Cut-off"
+msgstr "Відсікання обліку"
+
+#. module: account_cutoff_start_end_dates
+#: model:ir.model.fields,help:account_cutoff_start_end_dates.field_account_cutoff__include_tax_lines
+msgid ""
+"If enabled, tax move lines (display_type = 'tax') will also be included in "
+"the cutoff computation alongside product lines. Tax lines must have start "
+"and end dates set to be included."
+msgstr ""
+"Якщо увімкнено, податкові рядки проводки (display_type = 'tax') також "
+"включатимуться до розрахунку відсікання разом із товарними рядками. Для "
+"включення податкові рядки повинні мати дати початку й завершення."
+
+#. module: account_cutoff_start_end_dates
+#: model:ir.model.fields,help:account_cutoff_start_end_dates.field_account_cutoff_line__cutoff_days
+msgid ""
+"In regular mode, this is the number of days after the cut-off date. In "
+"forecast mode, this is the number of days between the start date and the end"
+" date."
+msgstr ""
+"У звичайному режимі це кількість днів після дати відсікання. У режимі "
+"прогнозу — кількість днів між датою початку та датою завершення."
+
+#. module: account_cutoff_start_end_dates
+#: model:ir.model.fields,help:account_cutoff_start_end_dates.field_account_cutoff__state
+msgid ""
+"State of the cutoff. When the Journal Entry is created, the state is set to "
+"'Done' and the fields become read-only."
+msgstr ""
+"Стан відсікання. Після створення журнальної проводки стан встановлюється в "
+"«Виконано», а поля стають лише для читання."
+
+#. module: account_cutoff_start_end_dates
+#: model:ir.model.fields,help:account_cutoff_start_end_dates.field_account_cutoff__end_date
+#: model:ir.model.fields,help:account_cutoff_start_end_dates.field_account_cutoff__start_date
+msgid "This field is only for the forecast mode"
+msgstr "Це поле використовується лише в режимі прогнозу"

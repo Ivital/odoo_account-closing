@@ -26,7 +26,7 @@ msgstr "<span class=\"o_stat_text\">Рядки на весь екран</span>"
 #. module: account_cutoff_base
 #: model:ir.model.constraint,message:account_cutoff_base.constraint_account_cutoff_date_type_company_uniq
 msgid "A cutoff of the same type already exists with this cut-off date !"
-msgstr ""
+msgstr "Відсікання такого типу з цією датою відсікання вже існує!"
 
 #. module: account_cutoff_base
 #: model:ir.model.fields,field_description:account_cutoff_base.field_account_cutoff_line__account_id
@@ -47,12 +47,12 @@ msgstr "Рядок відсікання рахунку"
 #. module: account_cutoff_base
 #: model:ir.model,name:account_cutoff_base.model_account_cutoff_mapping
 msgid "Account Cut-off Mapping"
-msgstr ""
+msgstr "Зіставлення відсікання обліку"
 
 #. module: account_cutoff_base
 #: model:ir.model,name:account_cutoff_base.model_account_cutoff_tax_line
 msgid "Account Cut-off Tax Line"
-msgstr ""
+msgstr "Рядок податку відсікання обліку"
 
 #. module: account_cutoff_base
 #: model:ir.model.fields,field_description:account_cutoff_base.field_res_company__accrual_taxes
@@ -130,7 +130,7 @@ msgstr "Сума"
 #. module: account_cutoff_base
 #: model:ir.model.fields,help:account_cutoff_base.field_account_cutoff_line__amount
 msgid "Amount that is used as base to compute the Cut-off Amount."
-msgstr ""
+msgstr "Сума, яка використовується як база для обчислення суми відсікання."
 
 #. module: account_cutoff_base
 #: model:ir.model.fields,field_description:account_cutoff_base.field_account_cutoff_line__analytic_distribution
@@ -165,6 +165,9 @@ msgid ""
 "Automatically reverse created move on following day. Use this if you accrue "
 "a value end of period that you want to reverse begin of next period"
 msgstr ""
+"Автоматично сторнувати створену проводку наступного дня. Використовуйте це, "
+"якщо наприкінці періоду нараховуєте суму, яку потрібно сторнувати на початку"
+" наступного періоду."
 
 #. module: account_cutoff_base
 #: model_terms:ir.ui.view,arch_db:account_cutoff_base.account_cutoff_form
@@ -270,7 +273,7 @@ msgstr "Сума відсікання"
 #. module: account_cutoff_base
 #: model:ir.model.fields,help:account_cutoff_base.field_account_cutoff_line__cutoff_amount
 msgid "Cut-off Amount without taxes in the Company Currency."
-msgstr ""
+msgstr "Сума відсікання без податків у валюті компанії."
 
 #. module: account_cutoff_base
 #: model_terms:ir.ui.view,arch_db:account_cutoff_base.account_cutoff_line_form
@@ -651,6 +654,8 @@ msgid ""
 "Price per unit (discount included) without taxes in the default unit of "
 "measure of the product in the currency of the 'Currency' field."
 msgstr ""
+"Ціна за одиницю (з урахуванням знижки) без податків у стандартній одиниці "
+"вимірювання товару та у валюті поля «Валюта»."
 
 #. module: account_cutoff_base
 #: model:ir.model.fields,field_description:account_cutoff_base.field_account_cutoff_line__quantity
@@ -733,7 +738,7 @@ msgstr "Сума податку"
 #. module: account_cutoff_base
 #: model:ir.model.fields,help:account_cutoff_base.field_account_cutoff_tax_line__cutoff_amount
 msgid "Tax Cut-off Amount in the company currency."
-msgstr ""
+msgstr "Сума податку відсікання у валюті компанії."
 
 #. module: account_cutoff_base
 #. odoo-python
